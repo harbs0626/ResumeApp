@@ -1,0 +1,33 @@
+.navBarBgColor{
+    background-color: #B03A2E;
+    color: #ffffff !important;
+}
+
+.fontColor{
+    color: #B3B6B7;
+}
+
+.fontColor2{
+    color: #ffffff;
+}
+
+.summaryJustify{
+    text-align: justify;
+}
+
+.header-darkRed {
+    background-color: #B03A2E;
+    color: #ffffff;
+}
+
+.border-darkRed {
+    border-color: #B03A2E !important;
+}
+
+.body-white {
+    background-color: #ffffff;
+}
+
+.ul-columns {
+    columns: 2;
+}
