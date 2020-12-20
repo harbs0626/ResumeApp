@@ -11,7 +11,7 @@ const courseWorks = [
     "Programming 3 - C#",
     "Database Concepts and PL/SQL",
     "Python (Basics)"
-]
+];
 
 export { 
     courseWorks };

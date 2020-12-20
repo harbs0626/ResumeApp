@@ -1,7 +1,7 @@
 import React from 'react';
-import { courseWorks } from '../Lists/CourseWorkList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSchool } from '@fortawesome/free-solid-svg-icons';
+import { courseWorks } from '../Lists/CourseWorkList';
 
 const Education = (props) => {
     return (
