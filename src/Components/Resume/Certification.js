@@ -58,6 +58,15 @@ const Certification = (props) => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-md-4">
+                            <div className="card h-100">
+                                <div className="card-body border border-darkRed rounded">
+                                    <span className="fs-5">{props.location6}</span><br></br>
+                                    Issue Date: {props.issueDate6}<br></br>
+                                    {props.exprDate6}
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

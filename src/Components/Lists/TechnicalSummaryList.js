@@ -4,7 +4,7 @@ const listHeaders = [
     "Client Application",
     "Microsoft Products",
     "Google Products",
-    "Languages",
+    "Languages And Databases",
     "Repository(ies)"
 ];
 
@@ -38,18 +38,19 @@ const googleProducts = [
     "Google Slides"
 ];
 
-const languages = [
+const languagesAndDatabases = [
     "C#", 
     ".NET Core", 
+    "React", 
+    "Express", 
     "ASP.NET",
     "Java", 
     "Javascript", 
     "HTML",
     "CSS", 
-    "React", 
-    "MERN Stack", 
     "T-SQL", 
-    "PL/SQL"
+    "SQL", 
+    "MongoDB"
 ];
 
 const repositories = [
@@ -62,5 +63,5 @@ export {
     clientApplications, 
     microsoftProducts, 
     googleProducts, 
-    languages, 
+    languagesAndDatabases, 
     repositories };

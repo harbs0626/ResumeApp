@@ -72,15 +72,18 @@ function App() {
                 location2="MERN Essential Training - LinkedIn"
                 issueDate2="December 2020"
                 exprDate2="No Expiration Date"
-                location3="Machine Learning No-Code Approach: Using ML Studio"
-                issueDate3="September 2020"
+                location3="Express Essential Training - LinkedIn"
+                issueDate3="December 2020"
                 exprDate3="No Expiration Date"
-                location4="The Complete ASP.NET MVC 5 Course - Udemy"
+                location4="Machine Learning No-Code Approach: Using ML Studio"
                 issueDate4="September 2020"
                 exprDate4="No Expiration Date"
-                location5="Advanced Food Safety Certification Program - SafeCheck Learning and Certification"
+                location5="The Complete ASP.NET MVC 5 Course - Udemy"
                 issueDate5="September 2020"
-                exprDate5="September 2025">
+                exprDate5="No Expiration Date"
+                location6="Advanced Food Safety Certification Program - SafeCheck Learning and Certification"
+                issueDate6="September 2020"
+                exprDate6="September 2025">
             </Certification>
             <br></br>
             <SeminarsTrainingsAttended

@@ -5,7 +5,7 @@ import {
     clientApplications, 
     microsoftProducts, 
     googleProducts, 
-    languages, 
+    languagesAndDatabases, 
     repositories } from '../Lists/TechnicalSummaryList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCogs } from '@fortawesome/free-solid-svg-icons';
@@ -61,7 +61,7 @@ const TechnicalSummary = (props) => {
                                     </td>
                                     <td>
                                         <ul className="list-unstyled">
-                                            { languages.map(item => (
+                                            { languagesAndDatabases.map(item => (
                                                 <li>{item}</li>
                                             )) }
                                         </ul>
