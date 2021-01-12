@@ -1,7 +1,18 @@
 import React from 'react';
+import {
+    experience, 
+    experienceList } from '../Lists/WorkExperienceList';
 
 const MyModal = (props) => {
     var myTarget = "#" + props.Key;
+
+    var myTitle = props.Title;
+    var expList = [];
+    if (experience.includes(myTitle)){
+        expList = experienceList.filter(function(item){
+            return item.startsWith(myTitle);
+        });
+    }
 
     return (
         <>
@@ -22,10 +33,13 @@ const MyModal = (props) => {
                                 aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            <div className="text-center">
-                                This page is under construction. My apologies for the inconvenience it has caused.
-                                <br></br>
-                                <img src="underConstruction.png" alt=""></img>
+                            <div className="text-left">
+                                <ul>
+                                    { expList.map(item => (
+                                        <li>{item.replace(props.Title + "|", "")}</li>
+                                    )) }
+                                </ul>
+                                {/* {test} */}
                             </div>
                         </div>
                         <div className="modal-footer">

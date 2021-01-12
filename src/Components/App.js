@@ -48,6 +48,9 @@ function App() {
             </Education>
             <br></br>
             <Experience
+                expDate0="November 2020"
+                expPosition0="Software Engineer"
+                expCompanyName0="DeskPal.com"
                 expDate1="April 2020"
                 expPosition1="Part-Time: Dietary Aide #9 (Grocer)"
                 expCompanyName1="Hellenic Home for the Aged"

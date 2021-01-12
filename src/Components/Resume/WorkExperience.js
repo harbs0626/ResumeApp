@@ -14,7 +14,22 @@ const Experience = (props) => {
                         <hr></hr>
                     </div>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
-                        <div className="col-md-6">
+                        <div className="col-md-4">
+                            <div className="card h-100">
+                                <div className="card-header header-darkRed">
+                                    <div className="fs-5 align-items-center d-flex justify-content-center">
+                                        {props.expDate0}
+                                    </div>
+                                </div>
+                                <div className="card-body">
+                                    <span className="card-text">{props.expPosition0}</span><br></br>
+                                    <span className="card-text">{props.expCompanyName0}</span><br></br>
+                                    <br></br>
+                                    <MyModal Key="Item0" Title={props.expPosition0}></MyModal>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
                             <div className="card h-100">
                                 <div className="card-header header-darkRed">
                                     <div className="fs-5 align-items-center d-flex justify-content-center">
@@ -29,7 +44,7 @@ const Experience = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                             <div className="card h-100">
                                 <div className="card-header header-darkRed">
                                     <div className="fs-5 align-items-center d-flex justify-content-center">
