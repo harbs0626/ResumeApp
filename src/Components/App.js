@@ -19,7 +19,7 @@ function App() {
                 imageName="Centennial-HarbinRamo_2.jpg"
                 name="Harbin Benedict Ramo"
                 title="Software Engineer"
-                address="Unit 206, 1 Rosemount Drive, Toronto, ON M1K 2W5"
+                address=""
                 linkedIn="https://www.linkedin.com/in/harbin-ramo-32a347103"
                 gitHub="https://github.com/harbs0626">
             </Personal>

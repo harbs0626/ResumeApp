@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle, faSchool } from '@fortawesome/free-solid-svg-icons';
-import { courseWorks } from '../Lists/CourseWorkList';
+// import { courseWorks } from '../Lists/CourseWorkList';
 
 const Education = (props) => {
     return (
