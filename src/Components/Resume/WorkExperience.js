@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle, faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import MyModal from '../Xtras/MyModal';
+// import MyModal from '../Xtras/MyModal';
 
 const Experience = (props) => {
     return (

@@ -1,12 +1,12 @@
 import React from 'react';
-import { 
-    listHeaders,
-    operatingSystems, 
-    clientApplications, 
-    microsoftProducts, 
-    googleProducts, 
-    languagesAndDatabases, 
-    repositories } from '../Lists/TechnicalSummaryList';
+// import { 
+//     listHeaders,
+//     operatingSystems, 
+//     clientApplications, 
+//     microsoftProducts, 
+//     googleProducts, 
+//     languagesAndDatabases, 
+//     repositories } from '../Lists/TechnicalSummaryList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle, faCogs } from '@fortawesome/free-solid-svg-icons';
 
