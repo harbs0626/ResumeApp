@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSchool } from '@fortawesome/free-solid-svg-icons';
+import { faExclamationTriangle, faSchool } from '@fortawesome/free-solid-svg-icons';
 import { courseWorks } from '../Lists/CourseWorkList';
 
 const Education = (props) => {
@@ -15,6 +15,12 @@ const Education = (props) => {
                     </div>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-md-12">
+                            <div className="alert alert-warning">
+                                <FontAwesomeIcon icon={faExclamationTriangle}></FontAwesomeIcon>&nbsp;
+                                <b>NOTE:</b>&nbsp;Under maintenance mode
+                            </div>
+                        </div>
+                        {/* <div className="col-md-4">
                             <div className="card h-100">
                                 <div className="card-header header-darkRed">
                                     <div className="fs-5 align-items-center d-flex justify-content-center">
@@ -34,7 +40,7 @@ const Education = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                             <div className="card h-100">
                                 <div className="card-header header-darkRed">
                                     <div className="fs-5 align-items-center d-flex justify-content-center">
@@ -48,7 +54,7 @@ const Education = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                             <div className="card h-100">
                                 <div className="card-header header-darkRed">
                                     <div className="fs-5 align-items-center d-flex justify-content-center">
@@ -61,7 +67,7 @@ const Education = (props) => {
                                     <span className="card-text">{props.program3}</span><br></br>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

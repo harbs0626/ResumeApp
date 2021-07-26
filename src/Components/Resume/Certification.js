@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCertificate } from '@fortawesome/free-solid-svg-icons';
+import { faExclamationTriangle, faCertificate } from '@fortawesome/free-solid-svg-icons';
 
 const Certification = (props) => {
     return (
@@ -13,7 +13,13 @@ const Certification = (props) => {
                         <hr></hr>
                     </div>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
-                        <div className="col-md-4">
+                        <div className="col-md-12">
+                            <div className="alert alert-warning">
+                                <FontAwesomeIcon icon={faExclamationTriangle}></FontAwesomeIcon>&nbsp;
+                                <b>NOTE:</b>&nbsp;Under maintenance mode
+                            </div>
+                        </div>
+                        {/* <div className="col-md-4">
                             <div className="card h-100">
                                 <div className="card-body border border-darkRed rounded">
                                     <span className="fs-5">{props.location1}</span><br></br>
@@ -66,7 +72,7 @@ const Certification = (props) => {
                                     {props.exprDate6}
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

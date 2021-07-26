@@ -13,7 +13,7 @@ const Personal = (props) => {
                 <div className="text-center">
                     <div className="fs-1">{props.name}</div>
                     <div className="fs-4">{props.title}</div>
-                    <div className="fs-4">{props.address}</div>
+                    {/* <div className="fs-4">{props.address}</div> */}
                     <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>&nbsp;
                     <a href={props.linkedIn} className="fs-5">
                         {props.linkedIn}</a>

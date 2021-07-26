@@ -8,7 +8,7 @@ import {
     languagesAndDatabases, 
     repositories } from '../Lists/TechnicalSummaryList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCogs } from '@fortawesome/free-solid-svg-icons';
+import { faExclamationTriangle, faCogs } from '@fortawesome/free-solid-svg-icons';
 
 const TechnicalSummary = (props) => {
     return (
@@ -20,7 +20,13 @@ const TechnicalSummary = (props) => {
                         Technical Summary
                         <hr></hr>
                     </div>
-                    <div className="table-responsive">
+                    <div className="col-md-12">
+                        <div className="alert alert-warning">
+                            <FontAwesomeIcon icon={faExclamationTriangle}></FontAwesomeIcon>&nbsp;
+                            <b>NOTE:</b>&nbsp;Under maintenance mode
+                        </div>
+                    </div>
+                    {/* <div className="table-responsive">
                         <table className="table table-bordered">
                             <thead className="header-darkRed">
                                 <tr>
@@ -76,7 +82,7 @@ const TechnicalSummary = (props) => {
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

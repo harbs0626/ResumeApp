@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserClock } from '@fortawesome/free-solid-svg-icons';
+import { faExclamationTriangle, faUserClock } from '@fortawesome/free-solid-svg-icons';
 
 const SeminarsTrainingsAttended = (props) => {
     return (
@@ -13,7 +13,13 @@ const SeminarsTrainingsAttended = (props) => {
                         <hr></hr>
                     </div>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
-                        <div className="col-md-6">
+                        <div className="col-md-12">
+                            <div className="alert alert-warning">
+                                <FontAwesomeIcon icon={faExclamationTriangle}></FontAwesomeIcon>&nbsp;
+                                <b>NOTE:</b>&nbsp;Under maintenance mode
+                            </div>
+                        </div>
+                        {/* <div className="col-md-6">
                             <div className="card h-100">
                                 <div className="card-header header-darkRed">
                                         <div className="fs-5 align-items-center d-flex justify-content-center">
@@ -76,7 +82,7 @@ const SeminarsTrainingsAttended = (props) => {
                                     <p className="summaryJustify">{props.description4}</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
